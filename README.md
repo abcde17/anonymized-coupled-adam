@@ -2,7 +2,7 @@
 
 This repository contains code to reproduce results from the paper Better Embeddings with Coupled Adam. 
 
-TL;DR: The implementation of Coupled Adam can be found [here](nanogpt/coupled_adam.py).
+TL;DR: The implementation of Coupled Adam can be found [here](https://github.com/abcde17/anonymized-coupled-adam/blob/77241d7b17310488da463eb7b4edce77a91336db/nanoGPT/coupled_adam.py#L621).
 
 ## 1. Overview
 
@@ -10,9 +10,9 @@ Our code is based on 3 existing open-source repositories. For each of them, we s
 
 | Repository  | Purpose | Original Commit | Our Commit |
 | -------------------------------- | ---- | ---- | ------------ |
-| [nanoGPT](https://github.com/karpathy/nanoGPT) | Experiments & Upstream Evaluation | [325be85](https://github.com/karpathy/nanoGPT/commit/325be85d9be8c81b436728a420e85796c57dba7e) | TODO |
-| [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) | Downstream Evaluation | [7a1614e](https://github.com/EleutherAI/lm-evaluation-harness/commit/7a1614eb90d29b2983ffa027a7974b7ef53fba19) | TODO |
-| [tooMuchInCommon](https://github.com/danielbis) | Embedding Quality Evaluation  | [6598573](https://github.com/danielbis/tooMuchInCommon/commit/659857383f391816d4ee2e519b37420d63d83b36) | TODO |
+| [nanoGPT](https://github.com/karpathy/nanoGPT) | Experiments & Upstream Evaluation | [325be85](https://github.com/karpathy/nanoGPT/commit/325be85d9be8c81b436728a420e85796c57dba7e) | [230bc80](https://github.com/abcde17/anonymized-coupled-adam/commit/230bc80ae7db9767654c95861363eec6bb761a88) |
+| [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) | Downstream Evaluation | [7a1614e](https://github.com/EleutherAI/lm-evaluation-harness/commit/7a1614eb90d29b2983ffa027a7974b7ef53fba19) | [ac6079a](https://github.com/abcde17/anonymized-coupled-adam/commit/ac6079a1e6d6617eef3e5041bc1db1fbcf583995) |
+| [tooMuchInCommon](https://github.com/danielbis) | Embedding Quality Evaluation  | [6598573](https://github.com/danielbis/tooMuchInCommon/commit/659857383f391816d4ee2e519b37420d63d83b36) | [de68574](https://github.com/abcde17/anonymized-coupled-adam/commit/de6857470d2de7e243b238cea1a529184e915520) |
 
 The links in the "Our commit" column allow to conveniently inspect the changes with respect to the original code.
 
